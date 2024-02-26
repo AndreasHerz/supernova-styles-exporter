@@ -1,5 +1,5 @@
 import { NamingHelper, CSSHelper, ColorFormat, StringCase } from '@supernovaio/export-helpers';
-import { ColorToken, GradientToken, Token, TokenGroup } from '@supernovaio/sdk-exporters';
+import { GradientToken, Token, TokenGroup } from '@supernovaio/sdk-exporters';
 
 export function createGradients(
   tokens: GradientToken[],
@@ -20,7 +20,7 @@ function gradientTokenToSCSS(
   // Then creating the value of the token, using another helper function
   const value = CSSHelper.gradientTokenValueToCSS(token.value, mappedTokens, {
     allowReferences: true,
-    decimals: 1,
+    decimals: 2,
     colorFormat: ColorFormat.smartHashHex,
     tokenToVariableRef: (t) => {
       return '$' + tokenVariableName(t, tokenGroups);

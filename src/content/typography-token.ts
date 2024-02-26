@@ -1,5 +1,4 @@
 import { NamingHelper, CSSHelper, ColorFormat, StringCase } from '@supernovaio/export-helpers';
-import { TokenToCSSOptions } from '@supernovaio/export-helpers/build/types/src/transforms/CSSHelper';
 import { Token, TokenGroup, TypographyToken } from '@supernovaio/sdk-exporters';
 
 export function createTypography(
