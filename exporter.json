@@ -1,16 +1,14 @@
 {
-    "id": "sevdesk.exporter-scss",
-    "name": "SCSS Exporter",
-    "description": "Export your design system data into SCSS",
-    "author": "Phoenix",
-    "organization": "sevDesk",
-    "homepage": "https://sevdesk.de/",
-    "version": "1.0.0",
-    "usesBrands": true,
-    "usesThemes": true,
-    "executable": "/dist/build.js",
-    "engine": "latest",
-    "tags": [
-        "[ANYTHING_YOU_WANT, like 'Tokens', 'Assets' etc.]"
-    ]
+  "id": "sevdesk.exporter-scss",
+  "name": "SCSS Exporter",
+  "description": "Export your design system data into SCSS",
+  "author": "Phoenix",
+  "organization": "sevDesk",
+  "homepage": "https://sevdesk.de/",
+  "version": "1.0.0",
+  "usesBrands": true,
+  "usesThemes": true,
+  "executable": "/dist/build.js",
+  "engine": "latest",
+  "tags": ["scss", "style-dictionary"]
 }
