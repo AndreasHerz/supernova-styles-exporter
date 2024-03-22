@@ -6,8 +6,8 @@
   "organization": "sevDesk",
   "homepage": "https://sevdesk.de/",
   "version": "1.0.0",
-  "usesBrands": true,
-  "usesThemes": true,
+  "usesBrands": false,
+  "usesThemes": false,
   "executable": "/dist/build.js",
   "engine": "latest",
   "tags": ["scss", "style-dictionary"]
